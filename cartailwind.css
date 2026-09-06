@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@theme {
+  --animate-slide: slide 35s ease-in-out infinite alternate;
+
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(calc(-100% + 100vw));
+    }
+  }
+}

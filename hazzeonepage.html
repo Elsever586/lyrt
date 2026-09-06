@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAZZE</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+ <nav class="bg-black w-full flex flex-wrap items-center justify-between p-7">
+    <a href="" class="flex ml-5">
+        <h1 class="text-white font-black text-3xl">Hazze</h1>
+        <div class="w-1.5 h-1.5 bg-pink-600 ml-0.5 mt-5.5"></div>
+    </a>
+   <div class="gap-9 hidden lg:block md:block ">
+    <a href="" class="text-red-500 ml-140 ">Home</a>
+    <a href="hazeabout.html" class="text-white ml-5 hover:text-red-500">About Us</a>
+    <a href="" class="text-white ml-5 hover:text-red-500">Blog</a>
+    <a href="" class="text-white ml-5 hover:text-red-500">Gallery</a>
+    <a href="" class="text-white ml-5 hover:text-red-500">Contact</a>
+  </div>
+
+  <button id="menu-btn" class="w-22 h-10 bg-gray-500 ml-40 text-white font-black lg:hidden md:hidden">
+    MENU ☰
+  </button>
+
+  <div id="mobile-menu" class="md:hidden max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
+    <div class="flex flex-col space-y-2 pt-4 pb-2 border-t border-gray-700 mt-2">
+      <a href="#" class="text-red-500  p-2 rounded">Home</a>
+      <a href="#" class="text-white  p-2 rounded">About Us</a>
+      <a href="#" class="text-white  p-2 rounded">Blog</a>
+      <a href="#" class="text-white  p-2 rounded">Gallery</a>
+      <a href="#" class="text-white  p-2 rounded">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<div class="bg-[url(acmepng/hazzebgpng.jpg)] w-full h-200 bg-cover bg-center">
+   <div class="ml-10 pt-50">
+      <h1 class="text-red-500 font-black">OFFICE FASHION</h1>
+      <h1 class="text-white font-black text-6xl mt-10">New Fashion</h1>
+      <p class=" text-white mt-5 lg:w-100 md:w-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <button class="bg-red-500 w-35 h-12 font-black text-white mt-18">Read More</button>
+   </div>
+  
+</div>
+
+<div class=" w-full h-650  bg-[#191919]">
+   <div class="flex flex-wrap lg:flex"> 
+     <img src="acmepng/about-us.jpg" class="pt-10 w-120 h-108 lg:ml-30 md:ml-30" alt="">
+    <div>
+      <h1 class="text-red-500 font-black ml-40 mt-5 lg:mt-10 md:mt-10">ABOUT US</h1>
+      <h1 class="text-white font-black text-5xl ml-15 lg:ml-37 mt-5 md:ml-37 mt-5">About Story</h1>
+      <p class="text-gray-400 w-98 ml-5 mt-5 lg:ml-37 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p class="text-gray-400 w-98 ml-5 mt-3 lg:ml-37 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+      <button class="w-40 h-12 bg-red-500 font-black text-white ml-34 mt-5 lg:ml-37">Read More</button>
+    </div>
+   </div>
+   <h1 class="text-center text-red-500 font-black mt-30">OUR SERVICES</h1>
+   <h1 class="text-center text-white font-black text-5xl mt-5">Best Services Save The World</h1>
+   <div class="flex flex-wrap gap-4">
+       <div class="w-99 h-85 mt-5 ml-4 bg-[#222222] text-center hover:border-b-4 border-red-500 lg:ml-13 md:ml-10">
+           <img src="acmepng/service-1.png" class="ml-42 mt-10" alt="">
+           <h1 class="text-white font-black text-2xl mt-7">Modern Design</h1>
+           <p class="text-gray-400 w-93 mt-5">Brook embraces a modern look with various enhanced pre-defined page elements.</p>
+       </div>
+
+       <div class="w-99 h-85 mt-5 ml-4 bg-[#222222] text-center hover:border-b-4 border-red-500">
+           <img src="acmepng/service-1.png" class="ml-42 mt-10" alt="">
+           <h1 class="text-white font-black text-2xl mt-7">Modern Design</h1>
+           <p class="text-gray-400 w-93 mt-5">Brook embraces a modern look with various enhanced pre-defined page elements.</p>
+       </div>
+
+       <div class="w-99 h-85 mt-5 ml-4 bg-[#222222] text-center hover:border-b-4 border-red-500">
+           <img src="acmepng/service-1.png" class="ml-42 mt-10" alt="">
+           <h1 class="text-white font-black text-2xl mt-7">Modern Design</h1>
+           <p class="text-gray-400 w-93 mt-5">Brook embraces a modern look with various enhanced pre-defined page elements.</p>
+       </div>
+   </div>
+   <h1 class="text-red-500 text-center font-black pt-30">OUR PORTFOLIO</h1>
+ <h1 class="text-white text-center font-black text-5xl">Turn Your Dream Into Reality</h1>
+   <div class="lg:hidden md:hidden">
+     <img src="acmepng/portfolio-1.jpg" class="mt-20" alt="">
+     <img src="acmepng/portfolio-2.jpg" alt="">
+     <img src="acmepng/portfolio-3.jpg" class="w-110" alt="">
+     <img src="acmepng/portfolio-4.jpg" class="w-110" alt="">
+   </div>
+ 
+<div class="hidden sm:flex">
+  
+ 
+  <div class="relative mt-20 ml-25 w-150 h-153 overflow-hidden group">
+    <img src="acmepng/portfolio-1.jpg" class="w-full h-full object-cover" alt="">
+    <div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      <button class="bg-white text-black font-semibold px-2.5 py-2 rounded-full shadow-md hover:bg-gray-100 transition-colors">🔍</button>
+    </div>
+  </div>
+
+  <div class="flex flex-col">
+    
+    <!-- 2. GÖRSEL (Sağ Üst Geniş) -->
+    <div class="relative w-130 mt-20 overflow-hidden group">
+      <img src="acmepng/portfolio-2.jpg" class="w-full object-cover" alt="">
+      <div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <button class="bg-white text-black font-semibold px-2.5 py-2 rounded-full shadow-md hover:bg-gray-100 transition-colors">🔍</button>
+      </div>
+    </div>
+
+    <!-- mt-3 eklenerek alt grup üst gruptan hafifçe ayrıldı -->
+    <div class="flex mt-3">
+      
+      <!-- 3. GÖRSEL (Sağ Alt Sol) -->
+      <div class="relative w-70 h-85 overflow-hidden group">
+        <img src="acmepng/portfolio-3.jpg" class="w-full h-full object-cover" alt="">
+        <div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <button class="bg-white text-black font-semibold px-2.5 py-2 rounded-full shadow-md hover:bg-gray-100 transition-colors">🔍</button>
+        </div>
+      </div>
+
+      <!-- 4. GÖRSEL (Sağ Alt Sağ) -->
+      <div class="relative w-60 h-85 overflow-hidden group">
+        <img src="acmepng/portfolio-4.jpg" class="w-full h-full object-cover" alt="">
+        <div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <button class="bg-white text-black font-semibold px-2.5 py-2 rounded-full shadow-md hover:bg-gray-100 transition-colors">🔍</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="w-full h-830 bg-[#191919]">
+    <div class="lg:hidden md:hidden">
+       <h1 class="text-red-500 font-black pt-15 ml-5">NUMBER SPEAKS</h1>
+       <h1 class="text-white font-black text-4xl ml-5 mt-10">We Have a lot of expreince</h1>
+       <button class="w-35 h-12 bg-red-500 font-black text-white ml-5 mt-15">Read More</button>
+       <h1 class="text-red-500 text-5xl font-black ml-5 mt-20">2034</h1>
+       <h1 class="text-white font-black text-2xl ml-5 mt-5">Successful projects</h1>
+       <p class="text-gray-300 ml-5 mt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid excepturi neque voluptate architecto ipsum itaque saepe.</p>
+
+        <h1 class="text-red-500 text-5xl font-black ml-5 mt-20">1054</h1>
+       <h1 class="text-white font-black text-2xl ml-5 mt-5">Events</h1>
+       <p class="text-gray-300 ml-5 mt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid excepturi neque voluptate architecto ipsum itaque saepe.</p>
+    </div>
+
+
+    <div class="hidden md:flex">
+
+        <div class="w-100">
+          <h1 class="text-red-500 font-black pt-15 ml-25">NUMBER SPEAKS</h1>
+          <h1 class="text-white font-black text-4xl ml-25 mt-5  ">We Have a lot of expreince</h1>
+          <button class="w-35 h-12 bg-red-500 font-black text-white ml-25 mt-10">Read More</button>
+        </div>
+        <div>
+          <div class="ml-80 flex">
+          <h1 class="text-red-500 text-5xl font-black ml-5 mt-15">2034</h1>
+           <div>
+            <h1 class="text-white font-black text-2xl ml-5 mt-15">Successful projects</h1>
+           <p class="text-gray-300 ml-5 mt-1 w-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid excepturi neque voluptate architecto ipsum itaque saepe.</p>
+           </div>
+        </div>
+
+        <div class="ml-80 flex">
+          <h1 class="text-red-500 text-5xl font-black ml-5 mt-15">1054</h1>
+           <div>
+            <h1 class="text-white font-black text-2xl ml-5 mt-15">Events</h1>
+           <p class="text-gray-300 ml-5 mt-1 w-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid excepturi neque voluptate architecto ipsum itaque saepe.</p>
+           </div>
+        </div>
+        </div>
+    
+    </div>
+
+
+    <div class="hidden sm:flex"> 
+  <div class="w-130 bg-[#222222] h-60 ml-32 mt-20"> 
+    <div class="flex"> 
+      <img class="w-30 h-30 ml-8 mt-13 rounded-full" src="a-dark-blue-spotlight-illuminates-a-textured-floor-creating-a-dramatic-empty-stage-background-photo.jpg" alt=""> 
+      <div> 
+        <h1 class="text-white text-2xl font-black ml-5 mt-13">Travis Crawford</h1> 
+        <h1 class="text-red-500 font-serif ml-5 mt-1">DESINGER</h1> 
+        <p class="text-gray-400 ml-5 w-80">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur voluptatum nihil sed illo laborum </p> 
+      </div> 
+    </div> 
+  </div> 
+  <div class="w-130 bg-[#222222] h-60 ml-10 mt-20"> 
+    <div class="flex"> 
+      <img class="w-30 h-30 ml-8 mt-13 rounded-full" src="a-dark-blue-spotlight-illuminates-a-textured-floor-creating-a-dramatic-empty-stage-background-photo.jpg" alt=""> 
+      <div> 
+        <h1 class="text-white text-2xl font-black ml-5 mt-13">Travis Crawford</h1> 
+        <h1 class="text-red-500 font-serif ml-5 mt-1">DESINGER</h1> 
+        <p class="text-gray-400 ml-5 w-80">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur voluptatum nihil sed illo laborum </p> 
+      </div> 
+    </div> 
+  </div> 
+</div> 
+
+<div class="hidden sm:block w-full h-100 bg-red-500 mt-30"> 
+  <h1 class="text-white font-black text-5xl pt-20 text-center">We Create Trends For The World</h1> 
+  <p class="text-center text-gray-200 mt-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste corrupti doloribus magnam quas, aut a aspernatur! Ipsa aliquam porro molestiae aut ad. Unde, sequi. Dolorem, dolores blanditiis, ipsa doloribus neque, eaque inventore debitis explicabo voluptatum non incidunt? </p> 
+  <button class="bg-white w-40 h-12 text-red-400 ml-150 mt-10">Work With Us</button> 
+</div> 
+
+<h1 class="hidden sm:block text-red-500 text-center mt-15 font-black ">OUR TEAM</h1> 
+<h1 class="hidden sm:block text-white text-center text-5xl font-black mt-5">Top Designers</h1> 
+
+<div class="hidden sm:flex gap-5 ml-30 mt-20"> 
+  <img src="acmepng/member-1.jpg" alt=""> 
+  <img src="acmepng/member-1.jpg" alt=""> 
+  <img src="acmepng/member-1.jpg" alt=""> 
+</div> 
+
+<h1 class="hidden sm:block text-red-500 text-center mt-20 font-bold pt-15">LATEST BLOG</h1> 
+<h1 class="hidden sm:block text-center text-white mt-5 text-4xl font-black">From Our Blog</h1> 
+
+<div class="hidden sm:flex"> 
+  <div class="bg-[#222222] w-140 h-97.5 mt-10 ml-20 flex"> 
+    <img src="acmepng/blog-1.jpg" alt=""> 
+    <div> 
+      <h1 class="text-red-500 font-serif pl-5 pt-10">August 9.2019</h1> 
+      <h1 class="text-white text-2xl pl-4 pt-5 font-black">Every Single Way You Can Wear Pastel Makeup This Spring</h1> 
+      <p class="text-gray-500 m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+      <div class="flex pt-5"> 
+        <img class="w-15 m-5 h-15 rounded-full" src="acmepng/member-1.jpg" alt=""> 
+        <div> 
+          <h1 class="text-white font-black mt-5">Aaron Russell</h1> 
+          <h1 class="text-red-500 font-serif mt-1">DESINGER</h1> 
+        </div> 
+      </div> 
+    </div> 
+  </div> 
+  <div class="bg-[#222222] w-140 h-97.5 mt-10 ml-15 flex"> 
+    <img src="acmepng/member-1.jpg" alt=""> 
+    <div> 
+      <h1 class="text-red-500 font-serif pl-5 pt-10">August 9.2019</h1> 
+      <h1 class="text-white text-2xl pl-4 pt-5 font-black">Every Single Way You Can Wear Pastel Makeup This Spring</h1> 
+      <p class="text-gray-500 m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+      <div class="flex"> 
+        <img class="w-15 ml-4 h-15 rounded-full" src="acmepng/member-1.jpg" alt=""> 
+        <div> 
+          <h1 class="text-white font-black ml-2">Aaron Russell</h1> 
+          <h1 class="text-red-500 font-serif mt-1 ml-2">DESINGER</h1> 
+        </div> 
+      </div> 
+    </div> 
+  </div> 
+</div> 
+
+<footer class="hidden sm:block bg-[#222222] w-full h-120 mt-40"> 
+  <div class="flex"> 
+    <a href="" class="flex ml-10 pt-10"> 
+      <h1 class="text-white font-black text-3xl">Hazze</h1> 
+      <div class="w-1.5 h-1.5 bg-pink-600 ml-0.5 mt-5.5"></div> 
+    </a> 
+    <h1 class="text-white font-black ml-60 pt-3 text-2xl mt-7">Useful Links</h1> 
+    <h1 class="text-white font-black ml-40 pt-3 text-2xl mt-7">Join The Newsletter</h1> 
+    <h1 class="text-white font-black ml-35 pt-3 text-2xl mt-7">Instagram</h1> 
+  </div> 
+  <div class="flex"> 
+    <p class="mt-7 ml-10 text-gray-400">Adress:60-49 Road 11378 New York</p> 
+    <p class="mt-7 ml-17 text-gray-400">About Us</p> 
+    <p class="mt-7 ml-59 text-gray-400">E-mail updates about our latest shop .</p> 
+    <div class="flex gap-2"> 
+      <img class="w-18 h-18 ml-24" src="acmepng/member-1.jpg" alt=""> 
+      <img class="w-18 h-18" src="acmepng/member-1.jpg" alt=""> 
+      <img class="w-18 h-18" src="acmepng/member-1.jpg" alt=""> 
+    </div> 
+  </div> 
+  <div class="flex mt-4"> 
+    <p class="ml-10 mt-2 text-gray-400">York</p> 
+    <p class=" ml-74.5 text-gray-400">Model</p> 
+    <div class="flex gap-2"> 
+      <img class="w-18 h-18 ml-160" src="acmepng/member-1.jpg" alt=""> 
+      <img class="w-18 h-18" src="acmepng/member-1.jpg" alt=""> 
+      <img class="w-18 h-18" src="acmepng/member-1.jpg" alt=""> 
+    </div> 
+  </div> 
+  <div class="flex mt-3"> 
+    <p class="ml-10 mt-2 text-gray-400">Phone: +65 11.188.888</p> 
+    <p class=" ml-40 text-gray-400">Contact</p> 
+    <input class="w-70 h-10 text-white border border-gray-500 ml-62" type="text" name="" id=""> 
+  </div> 
+  <div class="flex mt-3"> 
+    <p class="ml-10 mt-2 text-gray-400">Email: Hello.colorlib@gmail.com</p> 
+    <p class="ml-22 mt-2 text-gray-400">Serivius</p> 
+    <button class="w-70 ml-62 h-10 ml-6.5 bg-red-500 text-white mt-3">Subscribe</button> 
+  </div> 
+  <div class="flex mt-3 ml-2"> 
+    <img class="w-8 h-8 ml-7 mt-3" src="MusicPlatformsIcons/instagram-brands-solid.png" alt=""> 
+    <img class="w-8 h-8 ml-3 mt-3" src="MusicPlatformsIcons/square-facebook-brands-solid.png" alt=""> 
+    <img class="w-8 h-8 ml-3 mt-3" src="MusicPlatformsIcons/youtube-brands-solid.png" alt=""> 
+    <img class="w-8 h-8 ml-3 mt-3" src="MusicPlatformsIcons/tiktok-brands-solid.png" alt=""> 
+  </div> 
+</footer>
+    
+    <div class="w-full h-0.5 mt-10 bg-white lg:hidden md:hidden"></div>
+    <div class="bg-[#222222] w-90 ml-8.5 h-86 lg:hidden md:hidden">
+        <img class="w-40 h-40 p-5 rounded-full" src="a-dark-blue-spotlight-illuminates-a-textured-floor-creating-a-dramatic-empty-stage-background-photo.jpg" alt="">
+        <h1 class="text-white text-2xl font-black ml-8">Travis Crawford</h1>
+        <h1 class="text-red-500 font-serif ml-8 mt-1">DESINGER</h1>
+        <p class="text-gray-400 ml-8">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur voluptatum nihil sed illo laborum quae necessitatibus adipisci saepe. </p>
+    </div>
+
+    <div class="w-full h-120 mt-10 bg-red-400 lg:hidden md:hidden">
+      <h1 class="text-white font-black text-4xl pt-10 text-center">We Create Trends For The World</h1>
+      <p class="text-center text-gray-200 w-100 ml-4 mt-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste corrupti doloribus magnam quas, aut a aspernatur! Ipsa aliquam porro molestiae aut ad. Unde, sequi. Dolorem, dolores blanditiis, ipsa doloribus neque, eaque inventore debitis explicabo voluptatum non incidunt?
+      </p>
+      <button class="bg-white w-40 h-12 text-red-400 ml-33 mt-10">Work With Us</button>
+    </div>
+
+    <h1 class="text-red-500 text-center mt-10 lg:hidden md:hidden">OUR TEAM</h1>
+    <h1 class="text-white text-center text-5xl font-black md:hidden lg:hidden">Top Designers</h1>
+    <img class="ml-7.5 mt-5 lg:hidden md:hidden" src="acmepng/member-1.jpg" alt="">
+    <img class="ml-7.5 mt-5 lg:hidden md:hidden" src="acmepng/member-1.jpg" alt="">
+    <img class="ml-7.5 mt-5 lg:hidden md:hidden" src="acmepng/member-1.jpg" alt="">
+    
+
+
+</div>
+  <div class="w-full h-450 bg-[#222222] lg:hidden md:hidden">
+      <h1 class="text-red-500 text-center font-bold pt-15">LATEST BLOG</h1>
+      <h1 class="text-center text-white text-4xl font-black">From Our Blog</h1>
+
+      <div class="bg-[#191919] w-90 h-185 ml-8.5 mt-10">
+         <img class="w-90 h-100 object-cover" src="acmepng/blog-1.jpg" alt="">
+         <h1 class="text-red-500 font-serif p-5">August 9.2019</h1>
+         <h1 class="text-white text-2xl w-80 font-black ml-5">Every Single Way You Can Wear Pastel Makeup This Spring</h1>
+         <p class="text-gray-500 m-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+         <div class="flex">
+          <img class="w-15 m-5 h-15 rounded-full" src="acmepng/member-1.jpg" alt="">
+          <div>
+            <h1 class="text-white font-black mt-5">Jeff Rodriguez</h1>
+          <h1 class="text-red-500 font-serif mt-1">DESINGER</h1>
+          </div>
+         </div>
+      </div>
+
+       <div class="bg-[#191919] w-90 h-185 ml-8.5 mt-10">
+         <img class="w-90 h-100 object-cover" src="acmepng/member-1.jpg" alt="">
+         <h1 class="text-red-500 font-serif p-5">August 9.2019</h1>
+         <h1 class="text-white text-2xl w-80 font-black ml-5">Every Single Way You Can Wear Pastel Makeup This Spring</h1>
+         <p class="text-gray-500 m-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+         <div class="flex">
+          <img class="w-15 m-5 h-15 rounded-full" src="acmepng/member-1.jpg" alt="">
+          <div>
+            <h1 class="text-white font-black mt-5">Aaron Russell</h1>
+          <h1 class="text-red-500 font-serif mt-1">DESINGER</h1>
+          </div>
+         </div>
+      </div>
+  </div>
+
+ <footer class="bg-[#191919] w-full h-250 lg:hidden">
+       <a href="" class="flex ml-7 pt-10">
+        <h1 class="text-white font-black text-3xl">Hazze</h1>
+        <div class="w-1.5 h-1.5 bg-pink-600 ml-0.5 mt-5.5"></div>
+    </a>
+     <p class="mt-7 ml-7 text-gray-400">Adress:60-49 Road 11378 New York</p>
+      <p class="ml-7 mt-2 text-gray-400">Phone: +65 11.188.888</p>
+       <p class="ml-7 mt-2 text-gray-400">Email: Hello.colorlib@gmail.com</p>
+     
+    <div class="flex mt-3">
+        <img class="w-8 h-8 ml-7 mt-3" src="MusicPlatformsIcons/instagram-brands-solid.png" alt="">
+        <img class="w-8 h-8 ml-3 mt-3" src="MusicPlatformsIcons/square-facebook-brands-solid.png" alt="">
+        <img class="w-8 h-8 ml-3 mt-3" src="MusicPlatformsIcons/youtube-brands-solid.png" alt="">
+        <img class="w-8 h-8 ml-3 mt-3" src="MusicPlatformsIcons/tiktok-brands-solid.png" alt="">
+    </div>
+      <h1 class="text-white font-black ml-7 mt-7">Useful Links</h1>
+      <p class="ml-7 mt-5 text-gray-400">About Us</p>
+      <p class="ml-7 mt-2 text-gray-400">Model</p>
+      <p class="ml-7 mt-2 text-gray-400">Contact</p>
+      <p class="ml-7 mt-2 text-gray-400">Serivius</p>
+
+      <h1 class="text-white font-black ml-7 mt-7">Join The Newsletter</h1>
+       <p class="ml-6 mt-3 w-90 text-gray-400">Get Email Updates About Our Latest shop and special offers</p>
+
+       <input class="w-95 h-10 text-white border border-gray-500 ml-6.5 mt-5" type="text" name="" id="">
+       <button class="w-95 h-10 ml-6.5 bg-red-500 text-white mt-3">Subscribe</button>
+
+       <h1 class="text-white font-black ml-7 mt-7">Instagram</h1>
+
+       <div class="flex">
+        <img class=" w-30 h-20 ml-7 mt-5" src="acmepng/blog-1.jpg" alt="">
+        <img class=" w-30 ml-2 h-20  mt-5" src="acmepng/member-1.jpg" alt="">
+        <img class=" w-30 ml-2 h-20  mt-5" src="acmepng/blog-1.jpg" alt="">
+       </div>
+       <div class="flex">
+        <img class=" w-30 h-20 ml-7 mt-5" src="acmepng/blog-1.jpg" alt="">
+        <img class=" w-30 ml-2 h-20  mt-5" src="acmepng/member-1.jpg" alt="">
+        <img class=" w-30 ml-2 h-20  mt-5" src="acmepng/member-1.jpg" alt="">
+       </div>
+
+       <p class="w-95 ml-5.5 mt-2 text-center text-gray-400">Copyright (c)2026 All right reserved | This Template Is Made With By Colorlib</p>
+ </footer>
+
+</div>
+
+
+<script>
+  const menuBtn = document.getElementById('menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  menuBtn.addEventListener('click', () => {
+    // Menü kapalıysa aç, açıksa kapat
+    if (mobileMenu.classList.contains('max-h-0')) {
+      mobileMenu.classList.remove('max-h-0');
+      mobileMenu.classList.add('max-h-screen'); // İçeriğin sığacağı büyük bir değer
+    } else {
+      mobileMenu.classList.remove('max-h-screen');
+      mobileMenu.classList.add('max-h-0');
+    }
+  });
+</script>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+   
+    const duration = 1000; 
+
+   
+    const counters = document.querySelectorAll('.text-5xl.text-red-500');
+
+    counters.forEach(counter => {
+     
+      const target = parseInt(counter.textContent, 10);
+      
+      
+      if (!isNaN(target)) {
+        const startTime = performance.now();
+
+        function updateCounter(currentTime) {
+          const elapsedTime = currentTime - startTime;
+          const progress = Math.min(elapsedTime / duration, 1);
+          
+          // Easing (Yavaşlama efekti) - Sona doğru akıcı bir şekilde yavaşlar
+          // Eğer sabit hız isterseniz sadece: Math.floor(progress * target) yapabilirsiniz.
+          const easeOutQuad = progress * (2 - progress);
+          const currentValue = Math.floor(easeOutQuad * target);
+          
+          counter.textContent = currentValue;
+
+          if (progress < 1) {
+            requestAnimationFrame(updateCounter);
+          } else {
+            counter.textContent = target; // Tam olarak hedef sayıya ulaşmasını garantile
+          }
+        }
+
+        requestAnimationFrame(updateCounter);
+      }
+    });
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+     <nav class="bg-black w-full flex flex-wrap items-center justify-between p-7">
+    <a href="" class="flex ml-3">
+        <h1 class="text-white font-black text-3xl">Hazze</h1>
+        <div class="w-1.5 h-1.5 bg-pink-600 ml-0.5 mt-5.5"></div>
+    </a>
+   <div class="gap-9 hidden lg:block md:block ">
+    <a href="hazzeonepage.html" class="text-white ml-140 hover:text-red-500">Home</a>
+    <a href="" class="text-red-500 ml-5 hover:text-red-500">About Us</a>
+    <a href="" class="text-white ml-5 hover:text-red-500">Blog</a>
+    <a href="" class="text-white ml-5 hover:text-red-500">Gallery</a>
+    <a href="" class="text-white ml-5 hover:text-red-500">Contact</a>
+  </div>
+
+  <button id="menu-btn" class="w-22 h-10 bg-gray-500 ml-40 text-white font-black lg:hidden md:hidden">
+    MENU ☰
+  </button>
+
+  <div id="mobile-menu" class="md:hidden max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
+    <div class="flex flex-col space-y-2 pt-4 pb-2 border-t border-gray-700 mt-2">
+      <a href="#" class="text-white  p-2 rounded">Home</a>
+      <a href="#" class="text-red-500  p-2 rounded">About Us</a>
+      <a href="#" class="text-white  p-2 rounded">Blog</a>
+      <a href="#" class="text-white  p-2 rounded">Gallery</a>
+      <a href="#" class="text-white  p-2 rounded">Contact</a>
+    </div>
+  </div>
+</nav>
+<div class="w-full h-40 bg-[#2a2a2a] lg:hidden md:hidden">
+  <div class="flex">
+     <h1 class="text-gray-400 pt-12 ml-3">Home</h1>
+     <h1 class="text-gray-500 pt-11 ml-3 text-2xl">•</h1>
+     <h1 class="pt-12 ml-3 text-gray-500">About Us</h1>
+  </div>
+  <h1 class="text-white font-black text-3xl ml-3">About Us</h1>
+</div>
+<div class="bg-[#191919] w-full h-230 lg:hidden md:hidden">
+   <img class="w-100 ml-3.5 pt-30" src="acmepng/about-us.jpg" alt="">
+
+   <h1 class="text-red-500 font-black ml-3 mt-10">ABOUT US</h1>
+   <h1 class="text-white font-black text-5xl ml-3 mt-3">About Story</h1>
+    
+   <p class="text-gray-500 w-100 ml-3 mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quaerat facere saepe nisi dignissimos adipisci placeat eius quis alias.</p>
+   <p class="text-gray-500 w-100 ml-3 mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam amet ex est libero ipsam esse totam corporis illum? Ea consequatur explicabo eveniet doloremque iusto rerum quidem, beatae itaque nulla veniam corporis hic amet, ducimus impedit, molestias vero debitis nesciunt.</p>
+</div>
+</body>
+</html>
